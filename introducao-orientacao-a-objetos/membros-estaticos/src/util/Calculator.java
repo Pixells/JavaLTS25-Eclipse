@@ -9,6 +9,6 @@ public class Calculator {
 	}
 	
 	public static double volume(double radius) {
-		return 4.0 * PI * Math.pow(radius, radius) / 3.0;
+		return 4.0 * PI * Math.pow(radius, 3) / 3.0;
 	}
 }
