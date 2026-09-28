@@ -33,7 +33,7 @@ public class Account {
 				+ ", Holder: "
 				+ name
 				+ ", Balance: $ "
-				+ sale;
+				+ String.format("%.2f", sale);
 	}
 	
 }
